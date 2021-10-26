@@ -136,6 +136,6 @@ Analisando a variável resultados, temos três níveis de alerta (7,09; 6,29 e 3
 
 ![Imagem](Screenshot_1.png)
 
-
+> Créditos/Referência: [Blog 2 Engenheiros](http://2engenheiros.com)
 
 
