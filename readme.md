@@ -126,13 +126,12 @@ saida <- matrix(c(cbind(prec), cbind(dist_rio)), 9, 2)
 resultados <- evalFIS(saida, SIF_chuva)
 
 ```
-# **resultados**
+# **Resultados**
 
 Analisando a variável resultados, temos três níveis de alerta (7,09; 6,29 e 3,36), onde o primeiro é para locais a 15 metros do rio, ou seja, nessa situação (precipitação de 30 mm) temos um alerta de nível alto (7,09), locais a 30 metros também apresentam um certo nível de alerta (6,29); enquanto locais a 50 metros do rio apresentam risco baixo (3,36). Lembrando que definimos que os níveis de alerta variam entre 0 e 10.
 
-Embora tenha sido uma aplicação simples, sistemas de inferência difusa podem tornarem-se complexos quando há um maior número de variáveis e regras.
-
-Porém, nessa simples aplicação, é possível verificar o seu grande potencial em diversas áreas.
-
-Caso você tenha dificuldades ou algo não ficou claro, não hesite em perguntar, use nossos comentários e responderemos assim que possível.
 ![Imagem](Screenshot_1.png)
+
+
+
+
