@@ -73,11 +73,15 @@ SIF_chuva <- addMF(SIF_chuva, "input", 2, dist_ok)
 
  **4.** Definimos assim duas funções de pertinência do tipo trapezoidal (comando `trapMF`) para cada variável, ou seja, uma função para dizer quando vai inundar e quando não vai inundar.
 
+ Podemos utlizar de exemplo o gráfico abaixo para medir o nível de pertinência
+
+ ![Imagem](exemplo.png)
+
  **5.** Agora, vamos seguir os mesmos procedimentos anteriores, só que para criar os parâmetros de saída (outputs).
 
 ```R
 SIF_chuva <- addVar(SIF_chuva, "output", "Nível de Alerta", 0:10)
- 
+#Definimos os valores entre alto, médio e baixo.
 N_Alto <- trapMF("Alto", 0:10, c(6, 7, 10, 10, 1))
  
 N_Medio <- trapMF("Médio", 0:10, c(3, 5, 6, 7, 1))
